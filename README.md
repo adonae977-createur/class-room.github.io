@@ -9,4 +9,4 @@ InfiniCare Studio est un portail applicatif frontend mobile-first, conçu pour o
 * **Styling & Structure Responsive :** Tailwind CSS, React Icons
 * **Moteur d'Animations Fluides :** Framer Motion
 * **Gestion d'État Global :** Context API React
-* **Interopérabilité :** PWA Ready (Service Worker natif, Web Manifest complet)
+* **Interopérabilité :** PWA Ready (Service Worker natif, Web Manifest complet) 
