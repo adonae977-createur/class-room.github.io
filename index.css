@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased font-sans select-none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Scrollbar Modernization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400;
+}
+
+.custom-card {
+  @apply bg-white rounded-3xl border-2 border-slate-100 shadow-sm transition-all duration-200;
+}
+
+.duo-btn-primary {
+  @apply bg-medical-500 hover:bg-medical-600 text-white font-bold py-3 px-6 rounded-2xl shadow-[0_4px_0_#0284c7] active:translate-y-1 active:shadow-none transition-all text-center block;
+}
+
+.duo-btn-secondary {
+  @apply bg-white hover:bg-slate-50 text-slate-700 font-bold py-3 px-6 rounded-2xl border-2 border-slate-200 shadow-[0_4px_0_#e2e8f0] active:translate-y-1 active:shadow-none transition-all text-center block;
+}
